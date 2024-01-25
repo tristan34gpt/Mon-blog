@@ -74,6 +74,10 @@ function conection(){
                     $_SESSION['prenom'] = $session['first_name'];
                     $_SESSION['id'] =  $session['id'];
                     $_SESSION['connection'] = true;
+                    $id = $_SESSION['id'];
+                    if(admin($bdd,$id)){
+                        $_SESSION['admin'] = true;
+                     }
                     header("location: index.php?page=accueil");
                     exit();
                 }else{

@@ -3,13 +3,6 @@ $title = "Cosmos";
 ob_start();
 ?>
 
-<header>
-<video autoplay loop muted class="w-100 h-25">
-        <source src="public/asset/vidéo/particules.mp4" type="video/mp4">
-</video>
-</header>
-
-
 <div class="container">
     <h2 class="mt-4 text-center">Les News sur l'espace !</h2>
 
