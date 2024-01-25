@@ -1,0 +1,34 @@
+
+$colorTitle: #BFCFE7;
+$colorButton: #F8EDFF;
+
+$theme-colors: (
+  "dark": #030637,
+  "title": $colorTitle,
+  "button": $colorButton
+);
+
+.button{
+    border: none;
+    &:hover{
+        font-weight: bold;
+        font-size: 1.2em;
+        transition: 0.3s;
+    }
+}
+
+.commentaire{
+    height: auto;
+    width: 300px;
+}
+
+.error{
+    color: #BFCFE7;
+    font-weight: 800
+}
+
+@import"../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
